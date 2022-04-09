@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(45deg,rgb(255, 143, 143), rgb(131, 180, 255));
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: #fff;
+}
+
+img{
+  display: block;
+  width: 400px;
+}
+
+.hero{
+  display: flex;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.hero-descr{
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.title{
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.label{
+  font-size: 20px;
+  font-family: italic;
+}
+
+.name{
+  font-size: 30px;
+}
+.age{
+  font-size: 30px;
+}
+.exp{
+  font-size: 30px;
+}
+.descr{
+  font-size: 25px;
+}
+
+.secondary-title{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.goals{
+  margin-top: 40px;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.goals-list{
+  font-size: 30px;
+}
+
+li{
+  list-style-position: inside;
+  padding-bottom: 20px;
+}
+
+li:last-child{
+  padding-bottom: 0;
+}
+
+.time{
+  margin-top: 40px;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.time-table{
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.courses{
+  margin-top: 40px;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+.courses-table{
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.contacts{
+  margin-top: 40px;
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.link-wrapper{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.link{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.icon{
+  display: block;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
